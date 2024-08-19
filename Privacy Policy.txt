@@ -1,0 +1,35 @@
+Privacy Policy for Enable PiP Mode Extension
+
+Effective Date: August 18, 2024
+
+1. Introduction
+
+Welcome to the "Enable PiP Mode" browser extension. This Privacy Policy explains how we collect, use, and protect your information when you use our extension.
+
+2. Information We Collect
+
+We do not collect, store, or share any personal information from users of the "Enable PiP Mode" extension. The extension operates entirely on your local device and does not transmit any data to external servers or third parties.
+
+3. How We Use Information
+
+Since we do not collect any personal information, there is no user data that we use, share, or process. All functionalities of the "Enable PiP Mode" extension are performed locally on your device.
+
+4. Permissions
+
+The extension requires the following permissions:
+
+Active Tab Permission: This allows the extension to interact with the content of the currently active tab to enable Picture-in-Picture mode for video elements.
+Scripting Permission: This allows the extension to inject and execute scripts in the web pages you visit to modify video attributes for enabling Picture-in-Picture mode.
+These permissions are solely used to provide the core functionality of the extension and are not used to collect any personal data.
+
+5. Third-Party Services
+
+The "Enable PiP Mode" extension does not use any third-party services, analytics tools, or external APIs. As such, no data is shared with third-party entities.
+
+6. Changes to This Privacy Policy
+
+We may update this Privacy Policy from time to time. Any changes will be posted on this page, and the date of the latest revision will be indicated at the top of the policy. We encourage you to review this Privacy Policy periodically for any updates.
+
+7. Contact Us
+
+If you have any questions or concerns about this Privacy Policy, please contact us at clef462@gmail.com.
