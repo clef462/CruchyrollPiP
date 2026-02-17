@@ -1,17 +1,37 @@
 {
   "manifest_version": 3,
   "name": "Enable PiP Mode",
-  "version": "1.0",
-  "permissions": [],
+  "version": "2.0",
+  "description": "Adds a right-click context menu on the extension icon to toggle Picture-in-Picture on any site where PiP is allowed.",
+  "permissions": [
+    "contextMenus",
+    "activeTab",
+    "tabs"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
   "content_scripts": [
     {
-      "matches": ["<all_urls>"],
-      "js": ["content.js"],
-      "all_frames": true
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "all_frames": true,
+      "run_at": "document_start"
     }
   ],
+  "action": {
+    "default_title": "Toggle Picture-in-Picture"
+  },
   "icons": {
     "16": "icon.png",
+    "32": "icon.png",
     "48": "icon.png",
     "128": "icon.png"
   }
